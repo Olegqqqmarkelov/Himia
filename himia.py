@@ -6,6 +6,7 @@ from tkinter import messagebox
 root = Tk()
 #ЗАГОЛОВОК ПО
 root.title("Кислоти")
+root.geometry('210x50')
 
 
 #ДЛЯ РАМДОМНОГО РОЗКИДУ ХІМІЧНИХ НАЗВ ЕЛЕМЕНТІВ
@@ -64,8 +65,8 @@ def output_1(event):
 #ВЕСЬ ІНТЕРФЕЙС ПРОГРАМИ
 label_1 = Label(root, width=7, font=15)
 entry_1 = Entry(root, width=15, font=15)
-button_1 = Button(root, text="Провірити")
-button_2 = Button(root, text="Начати")
+button_1 = Button(root, text="Провірити", width=17)
+button_2 = Button(root, text="Начати", width=9)
 
 label_1.grid(row=0, column=0)
 entry_1.grid(row=0, column=1)
