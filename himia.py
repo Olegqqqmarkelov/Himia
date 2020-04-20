@@ -18,7 +18,9 @@ def randomOrder_key(element):
 def output_2(event):
 	kusrotu_1 = ["SO4","SO3","S",
 				"SiO3","NO2","NO3",
-				"Cl","PO4","CO3"]
+				"Cl","PO4","CO3",
+				"F","Br","I",
+				"CN","PO3"]
 
 	kusrotu_1_copi = sorted(kusrotu_1, key = randomOrder_key)
 	
@@ -50,7 +52,12 @@ def output_1(event):
 				"NO3" :"нітрат",
 				"Cl"  :"хлорид",
 				"PO4" :"фосфат",
-				"CO3" :"карбонат"}
+				"CO3" :"карбонат",
+				"F"   :"флуорид",
+				"Br"  :"бромід",
+				"I"   :"іодид",
+				"CN"  :"ціанідна",
+				"PO3" :"метафосфат"}
 	ggg() # ПЕРЕДАЄ fff and kkk
 
 	text_formul = entry_1.get()
